@@ -1,0 +1,45 @@
+.center-align {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/background.jpg');
+  background-attachment: fixed;
+}
+.submit-btn {
+  text-align: center;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+}
+
+.content-div {
+  justify-content: center;
+}
+.card {
+  padding: 10px;
+  align-items: center;
+  border-radius: 2px 2px 50px 50px;
+}
+.li-circle {
+  list-style-type: circle;
+  text-align: start;
+}
+.text-white {
+  color: white;
+}
+.spinner-border{
+  height: 100px;
+  width: 100px;
+}
+
+.health-badge{
+  color: white;
+  margin: 1px 2px;
+}
